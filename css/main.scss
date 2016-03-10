@@ -1,3 +1,44 @@
-.container {
-	width: 700px;
+
+
+body {
+	background-color: #FFF;
+}
+
+header {
+	border: 1px inset #EEE;
+	img {
+		width: 150px;
+		height: auto;
+	}
+}
+
+.nav-header {
+		list-style: none;
+		float: right;
+  		padding: 0;
+  		margin: 0;
+
+  		li {
+  			display: inline-block;
+  			margin: 5px 0;
+
+  			a {
+  				color: #8C8C8C;
+  				font-weight: 700;
+  				padding: 15px 25px;
+  				&:hover {
+  					text-decoration: none;
+  					color: #FFF;
+  					background-color: rgba(0, 0, 0, 0.1);
+  				}
+  			}  		
+  		}
+	}
+#portada {
+	background-image: url(../images/1920x665-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+	color: #FFF;
 }
