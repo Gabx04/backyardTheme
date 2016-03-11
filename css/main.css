@@ -1,3 +1,27 @@
+.boton, #presentacion button {
+  width: 150px;
+  padding: 10px 0;
+  background-color: transparent;
+  color: #3BB0F5;
+  border: 2px solid #3BB0F5;
+  border-radius: 50px; }
+  .boton.active, #presentacion button.active {
+    background-color: #3BB0F5;
+    color: #FFF; }
+  .boton:hover, #presentacion button:hover {
+    background-color: #3BB0F5;
+    color: #FFF; }
+
+.text-celeste {
+  color: #3BB0F5;
+  font-weight: 700; }
+
+.contenedor-foto {
+  text-align: right; }
+  .contenedor-foto img {
+    width: 95%;
+    height: auto; }
+
 body {
   background-color: #FFF; }
 
@@ -25,11 +49,73 @@ header {
         background-color: rgba(0, 0, 0, 0.1); }
 
 #portada {
-  background-image: url(../images/1920x665-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1920x665-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  color: #FFF; }
+  color: #FFF;
+  padding: 6% 0; }
+  #portada p {
+    text-align: left;
+    padding: 30px 30px 30px 0;
+    line-height: 170%; }
+  #portada .boton i, #portada #presentacion button i, #presentacion #portada button i {
+    font-size: 30px;
+    color: #3BB0F5; }
+  #portada a {
+    color: #FFF;
+    padding: 5px 10px; }
+    #portada a:hover {
+      text-decoration: none;
+      color: #3BB0F5; }
+    #portada a i {
+      padding: 0 10px; }
+
+#presentacion {
+  background-color: #FFF;
+  padding: 80px 0;
+  margin: 100px 0;
+  color: #868386;
+  line-height: 1.7;
+  border: 1px inset #f2f2f2; }
+  #presentacion h2 {
+    line-height: 150%; }
+  #presentacion button {
+    margin-top: 30px; }
+
+#servicios {
+  color: #868386;
+  background-color: #F6F6F6;
+  padding: 70px 0; }
+  #servicios .row {
+    margin-bottom: 50px; }
+  #servicios h2 {
+    text-align: center; }
+  #servicios .p-titular {
+    text-align: center; }
+  #servicios .servicio {
+    margin: 5px;
+    padding: 5px 35px 5px 10px; }
+    #servicios .servicio h5 {
+      font-weight: 700; }
+    #servicios .servicio .texto {
+      text-align: left;
+      line-height: 150%; }
+
+footer {
+  padding: 20px 0; }
+  footer .iconos {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid #3BB0F5;
+    border-radius: 100%;
+    margin: 10px 5px; }
+    footer .iconos i {
+      font-size: 18px;
+      color: #3BB0F5;
+      margin: 10px; }
+  footer p {
+    margin: 20px 0; }
 
 /*# sourceMappingURL=main.css.map */
